@@ -1,0 +1,126 @@
+/* Hide scrollbar */
+* {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.title_lr {
+    font-size: 3vw;
+    font-style: oblique;
+    color: #762D3F;
+    margin: 2vw 5vw 0vw;
+    letter-spacing: 15%;
+    cursor: default;
+}
+
+.undertext_lr {
+    font-size: 1.75vw;
+    font-style: italic;
+    color: #762D3F;
+    margin-left: 5vw;
+    letter-spacing: 10%;
+    opacity: 75%;
+    cursor: default;
+}
+
+.label {
+    font-size: 1.5vw;
+    color: #762D3F;
+    margin: 1vw 8vw 2vw;
+    letter-spacing: 15%;
+    cursor: default;
+}
+
+.textfield {
+    margin: 1vw 9vw 2vw;
+    width: 25%;
+    padding: 1vw;
+    border-width: 0.2em;
+    border-color: #ABC4BA;
+    border-style: solid;
+    transition: width 0.4s ease-in-out
+}
+
+.button {
+    margin: 1vw 16vw 2vw;
+    cursor: pointer;
+    width: 13%;
+    padding: 0.75vw;
+    background-color: #ABC4BA;
+    opacity: 85%;
+    border: none;
+    border-radius: 1.5vw;
+    transition: all 1s ease;
+}
+
+/* När man klickar på textrutan */
+.textfield:focus {
+    border-color: #762D3F;
+    outline: none;
+    width: 30%;
+}
+
+.divider_lr {
+    width: 70%;
+    color: #ABC4BA;
+    margin: 0vw 5vw 1vw;
+    opacity: 85%;
+}
+
+.b_text {
+    font-size: 1.2vw;
+    color: #762D3F;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 7%;
+    transition: all 1s ease;
+}
+
+.button:hover {
+    background-color: #762D3F;
+    padding: 0.9vw;
+    width: 13.5%;
+}
+
+.button:hover .b_text {
+    color: #ABC4BA;
+
+}
+
+.login_reg {
+    color: #762D3F;
+    letter-spacing: 7%;
+    transition: all 1s ease;
+    text-decoration: none;
+}
+
+.login_reg:hover {
+    letter-spacing: 15%;
+    color: #A5243D;
+    font-size: large;
+}
+
+.small_text {
+    color: #762D3F;
+    font-style: italic;
+    letter-spacing: 7%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0.5vw 14vw 1vw;
+    cursor: default;
+}
+
+.error_message {
+    color: #762D3F;
+    margin: 0.5vw 12vw 1vw;
+    letter-spacing: 10%;
+    font-style: oblique;
+    text-decoration: underline;
+    text-decoration-color: #762D3F;
+}

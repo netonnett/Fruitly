@@ -1,0 +1,64 @@
+.post_name {
+    font-size: 1.25vw;
+    font-style: italic;
+    color: #762D3F;
+    letter-spacing: 0.7vw;
+    margin: 2vw 5vw 2vw 5vw;
+    opacity: 80%;
+    cursor: default;
+    text-align: right;
+}
+
+.post_title {
+    font-size: 2vw;
+    font-style: italic;
+    color: #762D3F;
+    letter-spacing: 0.25vw;
+    padding-bottom: 1.5vw;
+    padding-left: 5vw;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #ABC4BA;
+    text-decoration-thickness: 0.1vw;
+    cursor: default;
+}
+
+.post_content {
+    font-size: 1.5vw;
+    color: #762D3F;
+    font-style: oblique;
+    padding-left: 2vw;
+    line-height: 200%;
+    cursor: default;
+}
+
+.content_box {
+    width: 50vw;
+    margin-left: 6vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+details>summary {
+    font-size: 1.7vw;
+    font-style: italic;
+    color: #762D3F;
+    letter-spacing: 0.25vw;
+    padding-bottom: 1.5vw;
+    padding-left: 7vw;
+    margin-top: 3vw;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #ABC4BA;
+    opacity: 80%;
+    text-decoration-thickness: 0.1vw;
+    cursor: pointer;
+}
+
+.divider {
+    color: #ABC4BA;
+    opacity: 55%;
+    width: 90%;
+    margin: auto;
+}
+

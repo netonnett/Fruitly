@@ -1,0 +1,95 @@
+/* Sätter margin till 0*/
+* {
+    margin: 0%;
+}
+
+.base_footer {
+    background-color: #C3737C;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+
+.title_footer {
+    margin: 0%;
+    padding: 2vw 2vw 0vw 0vw;
+    text-align: center;
+    color: #762D3F;
+    letter-spacing: 10%;
+    cursor: default;
+    font-size: 2vw;
+    transition: all 1s ease-in-out;
+}
+
+.title_footer:hover {
+    color: #A5243D;
+    text-decoration-color: #A5243D;
+    letter-spacing: 20%;
+}
+
+.undertitle_footer {
+    font-size: medium;
+    margin: 0%;
+    padding: 1vw 2vw 1vw 0vw;
+    text-align: center;
+    opacity: 70%;
+    color: #522833;
+    cursor: default;
+}
+
+.link_position_footer {
+    font-size: 1.25vw;
+    display: flex;
+    align-items: center;
+}
+
+.divider_footer {
+    right: 3vw;
+    color: #762D3F;
+    opacity: 65%;
+    cursor: default;
+}
+
+.log_in_footer {
+    letter-spacing: 7%;
+    color: #762D3F;
+    font-weight: bold;
+    padding: 1vw;
+    transition: all 1s ease-in-out;
+    text-decoration: none;
+}
+
+.log_in_footer:hover {
+    color: #A5243D;
+    letter-spacing: 20%;
+
+}
+
+.break_line {
+    color: #762D3F;
+    opacity: 50%;
+    width: 70%;
+    align-items: center;
+}
+
+.help {
+    letter-spacing: 7%;
+    color: #762D3F;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2vw 0vw 2vw 0vw;
+    transition: all 1s ease-in-out;
+    align-items: center;
+    cursor: pointer;
+}
+
+.help:hover {
+    color: #A5243D;
+    text-decoration-color: #A5243D;
+    letter-spacing: 20%;
+}

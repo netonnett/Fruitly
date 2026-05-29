@@ -1,0 +1,54 @@
+.share_box {
+    margin: 2vw 1vw 0vw 3vw;
+}
+
+.share_text {
+    font-size: large;
+    opacity: 80%;
+    color: #762D3F;
+    letter-spacing: 7%;
+    font-weight: bold;
+    cursor: default;
+}
+
+.divider {
+    color: #ABC4BA;
+    opacity: 55%;
+    width: 90%;
+    margin: auto;
+}
+
+/* Style för search rutan och iconene*/
+
+.search_icon{
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+    margin-right: 1vw;
+    font-size: 1.4vw;
+}
+
+.search{
+    border:none;
+    font-size:1.4vw;
+    border-bottom-style: solid;
+    border-bottom-color:#ABC4BA;
+    border-bottom-width:0.1vw;
+    width: 20%;
+    transition:all ease 1s;
+    padding-left:0.5vw;
+}
+
+.search::placeholder{
+    opacity: 60%;
+    font-size:1.2vw;
+}
+
+.search:focus{
+    width: 30%;
+    border-bottom-color:#762D3F;
+    outline:none;
+}
+
+.search:focus::placeholder{
+    opacity:40%;
+}

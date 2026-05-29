@@ -1,0 +1,85 @@
+.onepost_box {
+    border: solid;
+    margin: 2vw;
+    border-width: thin;
+    padding: 3vw;
+    border-color: #ABC4BA;
+    border-radius: 0.5vw;
+    box-shadow: 4px 8px #ABC4BA;
+}
+
+.username_text {
+    font-size: 1.25vw;
+    font-style: italic;
+    color: #762D3F;
+    letter-spacing: 0.7vw;
+    padding-bottom: 1vw;
+    opacity: 80%;
+    text-align: right;
+    cursor: default;
+}
+
+.title_post {
+    font-size: 1.25vw;
+    font-style: italic;
+    color: #762D3F;
+    letter-spacing: 0.25vw;
+    padding-bottom: 1.5vw;
+    padding-left: 2vw;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #ABC4BA;
+    text-decoration-thickness: 0.1vw;
+    cursor: default;
+}
+
+.preview_text {
+    font-size: 1vw;
+    color: #762D3F;
+    font-style: oblique;
+    letter-spacing: 0.25vw;
+    padding-left: 2vw;
+    line-height: 150%;
+    cursor: default;
+}
+
+.preview_box {
+    width: 75vw;
+    margin: auto;
+}
+
+.more_button {
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+
+.button_text {
+    transition: all 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding-left: 2vw;
+    color: #762D3F;
+}
+
+.button_text::after {
+    content: "⪼";
+    position: absolute;
+    opacity: 0;
+    right: 0.5vw;
+    transition: 0.5s;
+}
+
+.button_text:hover {
+    padding-left: 1vw;
+}
+
+.button_text:hover::after {
+    opacity: 1;
+    right: -1.5vw;
+}

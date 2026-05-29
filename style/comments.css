@@ -1,0 +1,133 @@
+.create_com {
+    border: none;
+    border-bottom-style: solid;
+    border-width: 0.1vw;
+    border-color: #ABC4BA;
+    margin: 1vw 2vw 2vw 10vw;
+    font-size: 1vw;
+    transition: all 1s ease;
+    opacity: 80%;
+    width: 20vw;
+}
+
+::placeholder {
+    letter-spacing: 7%;
+    color: #762D3F;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+}
+
+.create_com:focus {
+    border: none;
+    border-bottom-style: solid;
+    padding-right: 5vw;
+    border-width: 0.1vw;
+    border-color: #762D3F;
+    outline: none;
+}
+
+.create_button {
+    background-color: #ABC4BA;
+    margin: 1vw 10vw 2vw;
+    cursor: pointer;
+    width: 8%;
+    padding: 0.5vw;
+    opacity: 85%;
+    border: none;
+    border-radius: 1vw;
+    transition: all 1s ease;
+}
+
+.createb_text {
+    font-size: 1.2vw;
+    color: #762D3F;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 7%;
+    transition: all 1s ease;
+}
+
+.create_button:hover {
+    background-color: #762D3F;
+    padding: 0.7vw;
+    width: 13.5%;
+}
+
+.create_button:hover .createb_text {
+    color: #ABC4BA;
+}
+
+.divider {
+    color: #ABC4BA;
+    opacity: 55%;
+    width: 90%;
+    margin: auto;
+}
+
+.feedback_message {
+    color: #762D3F;
+    margin: 0.5vw 9vw 1vw;
+    letter-spacing: 10%;
+    font-style: oblique;
+}
+
+.comment_username {
+    font-size: 1.25vw;
+    font-style: italic;
+    color: #762D3F;
+    letter-spacing: 0.7vw;
+    padding-bottom: 1vw;
+    opacity: 80%;
+    cursor: default;
+}
+
+.comment_text {
+    font-size: 1vw;
+    color: #762D3F;
+    font-style: oblique;
+    letter-spacing: 0.25vw;
+    padding-left: 2vw;
+    line-height: 150%;
+    cursor: default;
+}
+
+.comment_box {
+    border: solid;
+    margin: 2vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    border-width: thin;
+    padding: 3vw;
+    border-color: #ABC4BA;
+    border-radius: 0.5vw;
+    box-shadow: 4px 8px #ABC4BA;
+}
+
+.back_text {
+    transition: all 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding-left: 3vw;
+    color: #762D3F;
+    margin-top: 2vw;
+}
+
+.back_text::after {
+    content: "←";
+    position: absolute;
+    opacity: 0;
+    left: 2vw;
+    transition: 0.5s;
+}
+
+.back_text:hover {
+    padding-left: 5vw;
+}
+
+.back_text:hover::after {
+    opacity: 1;
+    left: 3vw;
+}
